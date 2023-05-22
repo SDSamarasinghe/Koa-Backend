@@ -1,0 +1,25 @@
+{
+  "name": "koajs",
+  "version": "1.0.0",
+  "description": "creating a server with koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "koa",
+    "node"
+  ],
+  "author": "Sadish",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-json": "^2.0.2",
+    "koa-router": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
